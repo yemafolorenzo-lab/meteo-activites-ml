@@ -1,0 +1,23 @@
+# Environnement virtuel
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IA / Modèles (souvent trop lourds pour GitHub)
+*.h5
+*.keras
+ml/data/*.csv
+
+# Frontend
+node_modules/
+build/
+.eslintcache
+
+# Système
+.DS_Store
+Thumbs.db
