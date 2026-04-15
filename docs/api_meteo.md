@@ -1,6 +1,6 @@
 # Documentation Intégration API Open-Meteo
 
-Ce service permet de récupérer les données météorologiques nécessaires pour l'algorithme de recommandation d'activités.
+Ce service permet de récupérer les données météorologiques nécessaires pour l'algorithme de recommandation d'activités. '
 
 ## Service : `weather_service.py`
 
