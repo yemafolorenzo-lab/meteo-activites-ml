@@ -19,7 +19,7 @@ ACTIVITES = [
 
 def generate_data():
     data = []
-    # On calcule combien de lignes il faut par activité (600 / 8 = 75)
+    # On calcule combien de lignes il faut par activité (600 / 8 = 75).
     samples_per_activity = NUM_SAMPLES // len(ACTIVITES)
     
     for activite in ACTIVITES:
