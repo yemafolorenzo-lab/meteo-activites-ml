@@ -81,7 +81,7 @@ def generate_data():
     # Création du DataFrame
     df = pd.DataFrame(data, columns=["temperature", "precipitation", "vent", "humidite", "condition", "activite"])
     
-    # Sauvegarde
+    # Sauvegarde()
     os.makedirs(os.path.dirname(FILE_PATH), exist_ok=True)
     df.to_csv(FILE_PATH, index=False)
     
