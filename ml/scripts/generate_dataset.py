@@ -39,12 +39,12 @@ def generate_data():
                 temp = round(random.uniform(15, 25), 1)
                 precip = round(random.uniform(0, 0.5), 1) # Tolère une micro goutte
                 vent = round(random.uniform(0, 20), 1)
-                cond = 0 if precip == 0 else 1
+                cond = 0 if precip < 0.1 else 1 # Pluie légère tolérée pour le vélo, mais pas plus
             elif activite == "Randonnée en forêt":
                 temp = round(random.uniform(10, 22), 1)
                 precip = round(random.uniform(0, 1.5), 1)
                 vent = round(random.uniform(0, 25), 1)
-                cond = 0 if precip == 0 else 1
+                cond = 0 if precip < 0.1 else 1
             elif activite == "Balade en ville":
                 temp = round(random.uniform(10, 25), 1)
                 precip = round(random.uniform(0, 2.5), 1)
